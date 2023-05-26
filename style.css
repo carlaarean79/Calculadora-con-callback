@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://png.pngtree.com/png-clipart/20210611/ourlarge/pngtree-mathematical-formulas-for-geometric-figures-png-image_3429669.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+  }
+  /*contenedor princicipal*/
+  #section{
+    background-color: aqua;
+    width: 350px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px 10px grey;
+  }
+  /*nombre calculadora*/
+ #name{
+    margin-bottom: 10px;
+   text-align: center;
+   margin-left: 45px;
+ }
+ /*contenedor de botones*/
+  #calculadora{
+    text-align: justify;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 460px;
+    background-color: rgb(223, 16, 251);
+    border-radius: 10%;
+  }
+  /*pantalla*/
+  #pantalla{
+    width: 265px;
+    height: 50px;
+    margin-bottom: 8px;
+    margin-left: 5%;
+    box-shadow: 5px 5px 9px 5px rgb(141, 147, 145);
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+        
+  }
+  /*botones*/
+  .key-button{
+width: 60px;
+height: 60px;
+margin: 3px 3px 3px 3px;
+border-radius: 100%;
+box-shadow: 5px 5px 9px 5px rgb(141, 147, 145);
+background-color: black;
+text-align: center;
+color: white;
+font-style: bold;
+font-size: 30px;
+}
+/*boton clear*/
+.key-clear{
+  width:160px;
+height: 50px;
+margin: 10px 10px 3px 55px;
+box-shadow: 5px 5px 9px 5px rgb(141, 147, 145);
+background-color: black;
+border-radius: 20px;
+text-align: center;
+color: white;
+font-style: bold;
+font-size: 30px;
+}
+/*contendores de cada fila de botones*/
+#fila{
+   margin-left: 10px; 
+}
